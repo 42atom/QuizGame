@@ -234,27 +234,28 @@ body {
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
-    background: linear-gradient(135deg, #556b2f 0%, #2f4f4f 100%);
-    color: #e0e0e0;
+    background: linear-gradient(135deg, #00ff00 0%, #00cc00 100%);
+    color: #000;
     border: none;
     padding: 15px 30px;
     border-radius: 50px;
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 30px rgba(0,255,0,0.3);
     transition: all 0.3s ease;
     z-index: 1000;
 }
 
 .random-btn:hover {
     transform: translateX(-50%) translateY(-3px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    box-shadow: 0 15px 40px rgba(0,255,0,0.5);
+    background: linear-gradient(135deg, #00cc00 0%, #009900 100%);
 }
 
 .random-btn:active {
     transform: translateX(-50%) translateY(0);
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 20px rgba(0,255,0,0.3);
 }
 
 @media (max-width: 600px) {

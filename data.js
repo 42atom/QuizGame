@@ -55,6 +55,7 @@ const chemicalData = [
         atomicNumber: 3,
         atomicWeight: 6.941,
         category: "碱金属",
+        phase: "固体",
         discovery: "1817年由瑞典化学家约翰·奥古斯特·阿尔弗韦德松发现",
         origin: "主要从锂辉石和盐湖卤水中提取，地壳中含量约为0.0065%",
         funFacts: [
@@ -74,6 +75,7 @@ const chemicalData = [
         atomicNumber: 4,
         atomicWeight: 9.012,
         category: "碱土金属",
+        phase: "固体",
         discovery: "1798年由法国化学家路易-尼古拉·沃克兰发现",
         origin: "主要从绿柱石矿物中提取，地壳中含量约为0.0002%",
         funFacts: [
@@ -93,6 +95,7 @@ const chemicalData = [
         atomicNumber: 5,
         atomicWeight: 10.811,
         category: "准金属",
+        phase: "固体",
         discovery: "1808年由英国化学家戴维和法国化学家盖-吕萨克、泰纳尔分别独立发现",
         origin: "主要从硼砂和硼酸矿中提取，地壳中含量约为0.001%",
         funFacts: [
@@ -112,6 +115,7 @@ const chemicalData = [
         atomicNumber: 6,
         atomicWeight: 12.011,
         category: "非金属",
+        phase: "固体",
         discovery: "古代已知，1789年拉瓦锡确认为元素",
         origin: "宇宙中第四多的元素，地球上以石墨、金刚石、煤等形式存在",
         funFacts: [
@@ -131,6 +135,7 @@ const chemicalData = [
         atomicNumber: 7,
         atomicWeight: 14.007,
         category: "非金属",
+        phase: "气体",
         discovery: "1772年由苏格兰化学家丹尼尔·卢瑟福发现",
         origin: "占空气体积的78%，是蛋白质和核酸的组成元素",
         funFacts: [
@@ -150,6 +155,7 @@ const chemicalData = [
         atomicNumber: 8,
         atomicWeight: 15.999,
         category: "非金属",
+        phase: "气体",
         discovery: "1774年由英国化学家约瑟夫·普利斯特里和瑞典化学家卡尔·威尔海姆·舍勒独立发现",
         origin: "占空气体积的21%，是水和大多数氧化物的组成元素",
         funFacts: [
@@ -169,6 +175,7 @@ const chemicalData = [
         atomicNumber: 9,
         atomicWeight: 18.998,
         category: "卤素",
+        phase: "气体",
         discovery: "1886年由法国化学家亨利·莫瓦桑首次分离",
         origin: "以萤石(CaF₂)和冰晶石(Na₃AlF₆)形式存在，地壳中含量约为0.065%",
         funFacts: [
@@ -188,6 +195,7 @@ const chemicalData = [
         atomicNumber: 10,
         atomicWeight: 20.180,
         category: "稀有气体",
+        phase: "气体",
         discovery: "1898年由英国化学家威廉·拉姆齐和莫里斯·特拉弗斯发现",
         origin: "存在于空气中，体积分数约为1/65000",
         funFacts: [
@@ -207,6 +215,7 @@ const chemicalData = [
         atomicNumber: 11,
         atomicWeight: 22.990,
         category: "碱金属",
+        phase: "固体",
         discovery: "1807年由英国化学家汉弗莱·戴维通过电解法发现",
         origin: "主要以岩盐(NaCl)形式存在，海水中含量丰富",
         funFacts: [
@@ -226,6 +235,7 @@ const chemicalData = [
         atomicNumber: 12,
         atomicWeight: 24.305,
         category: "碱土金属",
+        phase: "固体",
         discovery: "1808年由英国化学家汉弗莱·戴维发现",
         origin: "主要从菱镁矿(MgCO₃)和白云石中提取，海水也是重要来源",
         funFacts: [
@@ -268,6 +278,7 @@ const chemicalData = [
         atomicNumber: 14,
         atomicWeight: 28.086,
         category: "准金属",
+        phase: "固体",
         discovery: "1824年由瑞典化学家约恩斯·雅各布·贝采利乌斯发现",
         origin: "主要以二氧化硅和硅酸盐形式存在，占地壳质量的27.7%",
         funFacts: [
@@ -287,6 +298,7 @@ const chemicalData = [
         atomicNumber: 15,
         atomicWeight: 30.974,
         category: "非金属",
+        phase: "固体",
         discovery: "1669年由德国炼金术士亨宁·布兰德发现",
         origin: "主要以磷酸盐矿物形式存在，如磷酸钙，是生命必需元素",
         funFacts: [
@@ -306,6 +318,7 @@ const chemicalData = [
         atomicNumber: 16,
         atomicWeight: 32.065,
         category: "非金属",
+        phase: "固体",
         discovery: "古代已知，1777年拉瓦锡确认为元素",
         origin: "以单质硫和硫化物矿物形式存在，火山活动地区丰富",
         funFacts: [
@@ -325,6 +338,7 @@ const chemicalData = [
         atomicNumber: 17,
         atomicWeight: 35.453,
         category: "卤素",
+        phase: "气体",
         discovery: "1774年由瑞典化学家卡尔·威尔海姆·舍勒发现",
         origin: "主要以岩盐(NaCl)形式存在于海水和矿床中",
         funFacts: [
@@ -344,6 +358,7 @@ const chemicalData = [
         atomicNumber: 18,
         atomicWeight: 39.948,
         category: "稀有气体",
+        phase: "气体",
         discovery: "1894年由英国科学家约翰·威廉·斯特拉特·瑞利和威廉·拉姆齐发现",
         origin: "占空气体积的0.93%，是空气中第三多的气体",
         funFacts: [
@@ -1088,6 +1103,7 @@ const chemicalData = [
         formula: "Al₂O₃",
         molecularWeight: 101.961,
         category: "无机化合物",
+        phase: "固体",
         description: "刚玉、红宝石、蓝宝石的主要成分"
     },
     {
@@ -1098,6 +1114,7 @@ const chemicalData = [
         formula: "Fe₂O₃",
         molecularWeight: 159.687,
         category: "无机化合物",
+        phase: "固体",
         description: "铁锈的主要成分，红色颜料"
     },
     {
@@ -1108,6 +1125,7 @@ const chemicalData = [
         formula: "CuSO₄",
         molecularWeight: 159.609,
         category: "无机盐",
+        phase: "固体",
         description: "蓝色晶体，用于电镀和杀菌剂"
     },
     {
@@ -1118,6 +1136,7 @@ const chemicalData = [
         formula: "AgNO₃",
         molecularWeight: 169.873,
         category: "无机盐",
+        phase: "固体",
         description: "用于制造镜子和检验卤素离子"
     },
     {
@@ -1128,6 +1147,7 @@ const chemicalData = [
         formula: "KMnO₄",
         molecularWeight: 158.034,
         category: "无机盐",
+        phase: "固体",
         description: "紫黑色晶体，强氧化剂，用于消毒"
     },
     {
@@ -1162,6 +1182,7 @@ const chemicalData = [
         formula: "CH₃OH",
         molecularWeight: 32.042,
         category: "有机化合物",
+        phase: "液体",
         description: "工业酒精，有毒"
     },
     {
@@ -1172,6 +1193,7 @@ const chemicalData = [
         formula: "C₂H₄",
         molecularWeight: 28.054,
         category: "有机化合物",
+        phase: "气体",
         description: "植物激素，用于催熟水果"
     },
     {
@@ -1182,6 +1204,7 @@ const chemicalData = [
         formula: "C₃H₈",
         molecularWeight: 44.096,
         category: "有机化合物",
+        phase: "气体",
         description: "液化石油气的主要成分"
     },
     {
@@ -1192,6 +1215,7 @@ const chemicalData = [
         formula: "C₄H₁₀",
         molecularWeight: 58.123,
         category: "有机化合物",
+        phase: "气体",
         description: "打火机燃料"
     },
     {
@@ -1202,6 +1226,7 @@ const chemicalData = [
         formula: "C₈H₁₈",
         molecularWeight: 114.231,
         category: "有机化合物",
+        phase: "液体",
         description: "汽油的主要成分之一"
     },
     {
@@ -1212,6 +1237,7 @@ const chemicalData = [
         formula: "CH₃COOH",
         molecularWeight: 60.052,
         category: "有机酸",
+        phase: "液体",
         description: "食醋的主要成分"
     },
     {
@@ -1222,6 +1248,7 @@ const chemicalData = [
         formula: "NH₄Cl",
         molecularWeight: 53.491,
         category: "无机盐",
+        phase: "固体",
         description: "用于干电池和肥料"
     },
     {
@@ -1232,6 +1259,7 @@ const chemicalData = [
         formula: "CuO",
         molecularWeight: 79.545,
         category: "无机化合物",
+        phase: "固体",
         description: "黑色粉末，用作催化剂"
     },
     {
@@ -1272,6 +1300,7 @@ const chemicalData = [
         formula: "CaO",
         molecularWeight: 56.077,
         category: "无机化合物",
+        phase: "固体",
         description: "生石灰，用于建筑和中和酸性土壤"
     },
     {
@@ -1282,6 +1311,7 @@ const chemicalData = [
         formula: "Na₂CO₃",
         molecularWeight: 105.989,
         category: "无机盐",
+        phase: "固体",
         description: "纯碱，用于制造洗涤剂和玻璃"
     },
     {
@@ -1292,6 +1322,7 @@ const chemicalData = [
         formula: "NaHCO₃",
         molecularWeight: 84.007,
         category: "无机盐",
+        phase: "固体",
         description: "小苏打，用于烘焙和清洁"
     },
     {
@@ -1772,6 +1803,7 @@ const chemicalData = [
         formula: "As₂S₃",
         molecularWeight: 246.038,
         category: "无机化合物",
+        phase: "固体",
         description: "黄色固体，用作颜料"
     },
     {
@@ -1782,6 +1814,7 @@ const chemicalData = [
         formula: "LiOH",
         molecularWeight: 23.948,
         category: "无机碱",
+        phase: "固体",
         description: "白色固体，用于制造锂电池"
     },
     {
@@ -1792,6 +1825,7 @@ const chemicalData = [
         formula: "RbOH",
         molecularWeight: 102.475,
         category: "无机碱",
+        phase: "固体",
         description: "白色固体，强碱性"
     },
     {
@@ -1802,6 +1836,7 @@ const chemicalData = [
         formula: "CsOH",
         molecularWeight: 149.913,
         category: "无机碱",
+        phase: "固体",
         description: "白色固体，最强的碱之一"
     },
     {
@@ -1812,6 +1847,7 @@ const chemicalData = [
         formula: "BeO",
         molecularWeight: 25.011,
         category: "无机化合物",
+        phase: "固体",
         description: "白色固体，优良的导热体"
     },
     {
@@ -1822,6 +1858,7 @@ const chemicalData = [
         formula: "MgO",
         molecularWeight: 40.304,
         category: "无机化合物",
+        phase: "固体",
         description: "白色固体，耐火材料"
     },
     {
@@ -1872,6 +1909,7 @@ const chemicalData = [
         formula: "Li₂O",
         molecularWeight: 29.881,
         category: "无机化合物",
+        phase: "固体",
         description: "白色固体，用于制造玻璃"
     }
 ];
